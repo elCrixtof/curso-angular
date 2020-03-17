@@ -64,9 +64,12 @@ export class HeroesService {
         return this.heroes;
     }
 
+    getHeroe( idx ){
+      return this.heroes[idx];
+    }
 }
 
-export interface Heroe{
+export interface Heroe {
     nombre: String;
     bio: String;
     img: String;
