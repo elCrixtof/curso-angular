@@ -10,7 +10,7 @@ import { HeroesService } from "../../servicios/heores.service";
 export class HeroeComponent {
 
   heroe: any = {};
-  casa: any = {};
+  // casa: any = {};
 
   constructor( private activatedRoute: ActivatedRoute,
                private heroesService: HeroesService 
